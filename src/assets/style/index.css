@@ -1,0 +1,35 @@
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-y:hidden;
+}
+html{
+    height:100%;
+    box-sizing: border-box;
+}
+#app{
+    height:100%;
+}
+.pointer{
+    cursor: pointer;
+}
+.v-scroll{
+    height: 100%;
+}
+.v-scroll .v-scrollbar-wrapper{
+    overflow-x:hidden !important;
+    margin-bottom: 0 !important;
+}
+.v-scroll .is-horizontal{
+    height: 0;
+}
+.v-scroll .is-vertical{
+    right: 0;
+}
+.el-menu--collapse span{
+    display:none;
+}
+.el-menu--collapse i{
+    display: inline;
+}
